@@ -4,9 +4,7 @@
 
 <div style="display: flex;">
 <div style="flex: 4;">
-    <div style="flex: 4;">
     <img src="https://raw.githubusercontent.com/pnraj/DE_Portfolio/main/3135715.png" alt="Image" width="500" height="500">
-</div>
 </div>
 <div style="flex: 6;">
     <h2 align="center">About Me</h2>
