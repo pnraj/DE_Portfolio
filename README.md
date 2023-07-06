@@ -4,7 +4,7 @@
 
 <div style="display: flex;">
 <div style="flex: 4;">
-    <img src="/3135715.png" alt="Image" width="500" height="500">
+    <img src="/3135715.png" alt="Image" width="450" height="390">
 </div>
 <div style="flex: 6; 'text-align: center;">
     <h2 align="center">About Me</h2>
