@@ -6,7 +6,7 @@
 <div style="flex: 4;">
     ![Image](3135715.png){: width="450" height="390"}
 </div>
-<div style="flex: 6; 'text-align: center;">
+<div style="flex: 6;">
     <h2 align="center">About Me</h2>
     
     <p style='font-size: 18px; text-align: justify; text-justify: inter-word;'>
