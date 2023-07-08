@@ -2,10 +2,19 @@ import streamlit as st
 from PIL import Image, ImageOps, ImageDraw
 from pro_cer.Project_details import project_selection
 from pro_cer.Cert_details import cert_sel
-
+import urllib.request
 
 st.set_page_config(layout='wide')
 mypic = "images/Untitled.jpg"
+
+st.cache_data()
+def resume():
+    url = "https://docs.google.com/document/d/1XaEmEM2QvrLmQshrmBoPitc7vNCYZLmpPAR-ofbbAX0/export?format=pdf"
+
+    res = urllib.request.urlopen(url)
+    pdf_data = res.read()
+    st.download_button(label="Nataraj_Palanivel_Resume", data=pdf_data, file_name="Nataraj_Palanivel_Resume.pdf", mime="application/pdf")
+
 def add_circle_frame(image_path, width, height):
     image = Image.open(image_path)
     resized_image = image.resize((width, height))
@@ -33,20 +42,30 @@ with col1:
 with col3:
     st.markdown("""<div style='text-align: center;'>
 <h2 style=' color: #2d89f2;'>NATARAJ PALANIVEL</h2></div>""", unsafe_allow_html=True)
-    st.markdown('<br>', unsafe_allow_html=True) 
+    #st.markdown('<br>', unsafe_allow_html=True)
     st.markdown("""<div style='text-align: center;'>
 <p style='font-size: 18px; text-align: justify; text-justify: inter-word;'>
-I am An <strong><i>Aspiring Data Engineer<i></strong> experienced in <strong>Python, SQL, and ETL pipelines</strong>. 
-With A Strong <i>Problem-Solving</i> Aptitude For Designing Efficient <strong><i>Data Pipelines</i></strong>, 
-Optimize <strong><i>Query Performance</i></strong> and Create Rrobust <strong><i>Data Models</i></strong>.</p>
-
-<p style='font-size: 18px; text-align: justify; text-justify: inter-word;'>
-I have hands-on experience with Big Data Technologies like <strong>Apache Spark, 
-Apache Airflow and Kafka</strong> and My expertise extends to using <strong><i>AWS</i></strong> services like <strong>Lambda, S3, 
-Athena, RDS</strong> for <u>Scalable Data Processing and Storage</u>.
+I am An Aspiring Data Engineer With Strong Problem-Solving Aptitude For Designing <strong>Efficient Data Pipelines, 
+Optimize Query Performance and Create Robust Data Models</strong>.Driven by a passion for delivering high-quality data solutions, 
+while learning new <strong>emerging trends and technologies</strong> in the field of data engineering.
+I am enthusiastic about leveraging my skills to contribute to the success of <strong>data-driven 
+initiatives</strong> and make a meaningful <strong>impact.</strong>
+.
 </p></div>""", unsafe_allow_html=True)
 
 #########################################
+    docl,colg1, colg2,colg3 = st.columns([2,3.5,3,3])
+
+    # GitHub link
+    github_link = "#### [GitHub](https://github.com/pnraj)"
+    colg1.markdown(github_link)
+
+    # LinkedIn link
+    linkedin_link = "#### [LinkedIn](https://www.linkedin.com/in/nataraj-palanivel-057085144/)"
+    colg2.markdown(linkedin_link)
+
+    colg3.markdown("""<div style='text-align: center;'>
+<h4 style=' color: #2d89f2;'>pnrajk@gmail.com</h4></div>""", unsafe_allow_html=True)
 st.markdown('<hr>', unsafe_allow_html=True)
 lcol,rcol = st.columns([2.5,7])
 
@@ -110,7 +129,11 @@ with rcol:
     
     #st.markdown('<hr>', unsafe_allow_html=True)
     project_selection(selected_pr)
-
+    st.markdown('<br>', unsafe_allow_html=True) 
+    dum1,resc,resc1 = st.columns([3,5,4])
+    resc.write(f"###### :blue[Click The Button to Download My Resume:]")
+    with resc1:
+        resume()
 st.markdown('<hr>', unsafe_allow_html=True)     
 
 st.markdown("""<div style='text-align: center;'>
