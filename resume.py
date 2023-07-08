@@ -105,8 +105,8 @@ with lcol:
         st.write("<p style='font-size: 18px;'>SSLC - Matriculation</p>", unsafe_allow_html=True)
     with acol:
         st.write("<p style='font-size: 18px;'>70%</p>", unsafe_allow_html=True)
-        st.write("<p style='font-size: 18px;'>76.4%</p>", unsafe_allow_html=True)
-        st.write("<p style='font-size: 18px;'>86.2%</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size: 18px;'>76%</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size: 18px;'>86%</p>", unsafe_allow_html=True)
     with acol2:
         st.write("<p style='font-size: 18px;'>2013-2017</p>", unsafe_allow_html=True)
         st.write("<p style='font-size: 18px;'>2011-2013</p>", unsafe_allow_html=True)
