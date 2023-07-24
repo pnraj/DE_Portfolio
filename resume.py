@@ -45,11 +45,14 @@ with col3:
     #st.markdown('<br>', unsafe_allow_html=True)
     st.markdown("""<div style='text-align: center;'>
 <p style='font-size: 18px; text-align: justify; text-justify: inter-word;'>
-I am An Aspiring Data Engineer With Strong Problem-Solving Aptitude For Designing <strong>Efficient Data Pipelines, 
-Optimize Query Performance and Create Robust Data Models</strong>.Driven by a passion for delivering high-quality data solutions, 
-while learning new <strong>emerging trends and technologies</strong> in the field of data engineering.
-I am enthusiastic about leveraging my skills to contribute to the success of <strong>data-driven 
-initiatives</strong> and make a meaningful <strong>impact.</strong>
+I started my career as a Civil Engineer, spending 4+ years in the field of site engineering. However, 
+I discovered my <strong>true passion</strong> for data and how it can <strong>revolutionize businesses</strong> by 
+<strong>Predicting The Future </strong>and<strong> Increasing Profit Margins.</strong>
+I have developed <strong>strong skills</strong> in <strong>Python, SQL, AWS</strong> and other relevant skills required in the data world, 
+and I am <strong>determined</strong> to deliver high-quality data solutions, optimize workflows, and build <strong>robust models</strong>.
+My <strong>eagerness</strong> to learn and stay updated with <strong>emerging trends</strong> drives me to make a <strong>meaningful impact</strong> 
+by contributing to data-driven initiatives. Now, I am seeking a <strong>fulfilling career transition</strong> in the world of data 
+to turn <strong><i><u>My Passion Into A Profession.</u></i></strong>
 .
 </p></div>""", unsafe_allow_html=True)
 
@@ -90,8 +93,10 @@ with lcol:
     Ecol1, Ecol2 = st.columns([6,3])
     with Ecol1:
         st.write("<p style='font-size: 18px;'>Civil Engineer(Freelancer)</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size: 18px;'>Civil Engineer(Site Engineer)</p>", unsafe_allow_html=True)
     with Ecol2:
-        st.write("<p style='font-size: 18px;'>2017-2022</p>", unsafe_allow_html=True)                
+        st.write("<p style='font-size: 18px;'>2019-2022</p>", unsafe_allow_html=True)
+        st.write("<p style='font-size: 18px;'>2018-2019</p>", unsafe_allow_html=True)
 
     st.markdown('<hr>', unsafe_allow_html=True)
 
