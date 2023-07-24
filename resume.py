@@ -47,7 +47,7 @@ with col3:
 <p style='font-size: 18px; text-align: justify; text-justify: inter-word;'>
 I started my career as a Civil Engineer, spending 4+ years in the field of site engineering. However, 
 I discovered my <strong>true passion</strong> for data and how it can <strong>revolutionize businesses</strong> by 
-<strong>Predicting The Future </strong>and<strong> Increasing Profit Margins.</strong>
+<strong>Future Prediction </strong>and<strong> Increasing The Profit Margins.</strong>
 I have developed <strong>strong skills</strong> in <strong>Python, SQL, AWS</strong> and other relevant skills required in the data world, 
 and I am <strong>determined</strong> to deliver high-quality data solutions, optimize workflows, and build <strong>robust models</strong>.
 My <strong>eagerness</strong> to learn and stay updated with <strong>emerging trends</strong> drives me to make a <strong>meaningful impact</strong> 
