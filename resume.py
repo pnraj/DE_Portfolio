@@ -51,8 +51,7 @@ I discovered my <strong>true passion</strong> for data and how it can <strong>re
 I have developed <strong>strong skills</strong> in <strong>Python, SQL, AWS</strong> and other relevant skills required in the data world, 
 and I am <strong>determined</strong> to deliver high-quality data solutions, optimize workflows, and build <strong>robust models</strong>.
 My <strong>eagerness</strong> to learn and stay updated with <strong>emerging trends</strong> drives me to make a <strong>meaningful impact</strong> 
-by contributing to data-driven initiatives. Now, I am seeking a <strong>fulfilling career transition</strong> in the world of data 
-to turn <strong><i><u>My Passion Into A Profession.</u></i></strong>
+by contributing to data-driven initiatives.
 .
 </p></div>""", unsafe_allow_html=True)
 
